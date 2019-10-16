@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Event Signup Form</title>
+
+        <!-- Favicon Information-->
+        <link rel="shortcut icon" href="https://image.flaticon.com/icons/svg/1141/1141174.svg" />
+        <link rel="apple-touch-icon" sizes="180x180" href="../../apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="../../favicon-16x16.png">
+        <link rel="manifest" href="../../site.webmanifest">
+
+        <style>
+                body {
+                  background-color: black;
+                  color: #957DAD;
+                  font-family: 'Courier New', Courier, monospace;
+                }
+                
+                p {
+                    color:#957DAD;
+                }
+        </style>
+    </head>
+
+    <body>
+
+            <h1>Event Sign Up Form</h1>    
+        
+            <form action="demographic.html" method="get">
+            <p>Event Name:
+                <input type="text" name="eventname" size="25" maxlength="50" />
+            </p>
+    
+            <p>Description:
+                <input type="text" name="description" size="25" maxlength="999" />
+            </p>
+    
+            <p>Start Date:
+                <input type="text" name="startdate" size="25" maxlength="10" />
+            </p>
+            <label>Start Time: 
+                <input type="text" name="starttime" /></label>
+
+            <p>End Date:
+                <input type="text" name="enddate" size="25" maxlength="10" />
+            </p>
+            <label>End Time: 
+                <input type="text" name="endtime" /></label>
+            <br />
+
+            </form>
+            <fieldset>
+                    <legend>Contact details</legend>
+                    <label>Name:<br />
+                        <input type="text" name="name" size="25" /></label><br />
+                    </label>
+                    <label>Email:<br />
+                        <input type="text" name="email" size="25" ></label><br />
+                    <label>Mobile:<br />
+                        <input type="text" name="mobile" /></label><br />
+                    <label>Telephone:<br />
+                        <input type="text" name="telephone"  /></label>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Invite List Details</legend>
+                        <label>Names:<br />
+                            <input type="text" name="name" size="30" /></label><br />
+                        </label>
+                    </fieldset>
+                    <input type="submit" name="submit" value="Submit" />
+    </body>
+</html>
