@@ -1,0 +1,27 @@
+html {
+    text-align: center;
+}
+table {
+    margin: auto;
+}
+body {
+  background-color: black;
+  color: #957DAD;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.heading {
+    columns: lightslategrey;
+    font-family: 'Courier New', Courier, monospace;
+    display: inline;
+}
+
+h1{
+    color: lightcoral;
+}
+p {
+    color: lightslategrey;
+}
+th {
+    color:lightslategrey;
+}
