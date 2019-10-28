@@ -1,0 +1,26 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: lavender;
+    text-decoration-color: #1B1B1B;
+}
+
+li>b {
+    color: black;
+    text-align: left;
+}
+
+p>em {
+    color: purple;
+}
+
+li>i 
+{
+    color: black;
+    text-align: left;
+    font-weight: bold;
+}
+
+.summary p{
+    color:purple;
+    font-weight: bolder;
+}
