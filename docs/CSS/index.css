@@ -1,0 +1,51 @@
+html {
+    text-align: center;
+}
+
+table {
+    margin: auto;
+}
+body {
+    background-color: black;
+  color: #957DAD;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.heading {
+    color:#f8eded;
+    font-family: 'Courier New', Courier, monospace;
+    display: inline;
+}
+
+h1{
+    color: #f8eded;
+}
+
+p {
+    color: #f8eded;
+}
+
+th {
+    color:#f8eded;
+}
+
+@media
+    only screen
+    and (min-device-width: 320px)
+    and (max-device-width: 667px)
+    and (orientation: portrait) {
+        body {
+            background: palegreen;
+            color: black;
+        }
+    }
+
+@media
+    only screen
+    and (min-device-width: 1080px)
+    and (max-device-width: 1920px)
+    and (orientation: landscape) {
+        body {
+            background: palevioletred;
+        }
+    }
