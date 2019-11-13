@@ -6,7 +6,6 @@ table {
     margin: auto;
 }
 body {
-    background-color: black;
   color: #957DAD;
   font-family: 'Courier New', Courier, monospace;
 }
@@ -28,24 +27,3 @@ p {
 th {
     color:#f8eded;
 }
-
-@media
-    only screen
-    and (min-device-width: 320px)
-    and (max-device-width: 667px)
-    and (orientation: portrait) {
-        body {
-            background: palegreen;
-            color: black;
-        }
-    }
-
-@media
-    only screen
-    and (min-device-width: 1080px)
-    and (max-device-width: 1920px)
-    and (orientation: landscape) {
-        body {
-            background: palevioletred;
-        }
-    }
