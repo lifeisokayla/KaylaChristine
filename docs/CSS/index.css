@@ -2,6 +2,7 @@ html {
     text-align: center;
 }
 
+
 table {
     margin: auto;
 }
@@ -20,6 +21,17 @@ blockquote {
     display: inline;
 }
 
+.pictures {
+    align-content: center;
+}
+
+.about {
+    align-content: center;
+}
+
+.links {
+    padding: 5px;
+}
 h1{
     color: #f8eded;
 }
